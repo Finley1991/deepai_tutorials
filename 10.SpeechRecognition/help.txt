@@ -1,0 +1,23 @@
+1、torchvision报错问题解决
+    torchvision卸载或导入使用时出现问题，出现了如下所示的错误信息：DLL load failed：找不到指定模块。
+    原因：
+    torchvision其实是有环境依赖的，其中有一条就是pillow的版本，而此次出错的问题主要就是这个PIL的问题。
+    因为根本没有提供给win的资源，因此我们只能使用pip安装
+
+    解决方法：
+    打开Anaconda Promp在conda 下 使用pip 卸载Pillow
+
+    pip uninstall Pillow
+
+    然后在当前环境下使用 pip安装最新的 Pillow，在以前的4.x中好像不支持这个模块了
+
+    pip install Pillow
+
+
+2、torchaudio.load加载音频文件时的报错问题解决
+
+报错：No audio IO backend is available
+
+安装SoundFile : 运行指令 pip install SoundFile
+
+或者安装SoX ： 运行指令： pip install sox

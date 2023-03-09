@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>C:\Users\Cheng Jiang\Desktop\动物\1.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>斑马</name>
+				<bndbox>
+					<xmin>203</xmin>
+					<ymin>162</ymin>
+					<xmax>635</xmax>
+					<ymax>673</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>斑马</name>
+				<bndbox>
+					<xmin>539</xmin>
+					<ymin>22</ymin>
+					<xmax>957</xmax>
+					<ymax>673</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1646048566512</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>1200</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+</doc>
